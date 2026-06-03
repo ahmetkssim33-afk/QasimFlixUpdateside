@@ -4,7 +4,7 @@ export const dynamic = "force-dynamic";
 
 export async function GET() {
   try {
-    const b = await head("qasimflix/latest.json");
+    const b = await head("sineq/latest.json");
     const r = await fetch(b.url, { cache: "no-store" });
     if (!r.ok) return Response.json({ apkUrl: null, error: "Metadata okunamadı." }, { headers: { "Cache-Control": "no-store" } });
     const metadata = await r.json();

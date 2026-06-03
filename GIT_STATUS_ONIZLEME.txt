@@ -1,0 +1,20 @@
+ M .env.example
+ M README.md
+ M app/admin/page.jsx
+ M app/api/admin/metadata/route.js
+ M app/api/health/route.js
+ M app/api/latest/route.js
+ M app/api/upload/route.js
+ M app/globals.css
+ M app/layout.jsx
+ M app/page.jsx
+ M next.config.mjs
+ M package.json
+ D public/qasimflix.png
+?? 01_GITHUBA_GONDER.bat
+?? BASLA_BURADAN.md
+?? GIT_CLONE_KURULUM.md
+?? GIT_STATUS_ONIZLEME.txt
+?? KOMUTLAR.txt
+?? SINEQ_DUZENLEME_NOTLARI.md
+?? public/sineq.png

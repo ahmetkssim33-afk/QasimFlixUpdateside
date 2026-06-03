@@ -26,11 +26,11 @@ export async function POST(request) {
     if (!sha256) return NextResponse.json({ error: "Geçerli SHA-256 doğrulama kodu eksik." }, { status: 400 });
 
     const metadata = {
-      appName: "QasimFlix",
+      appName: "SineQ",
       version,
       notes: cleanText(body.notes),
       forceUpdate: Boolean(body.forceUpdate),
-      originalName: cleanText(body.originalName || `QasimFlix-v${version}-release-signed.apk`, 160),
+      originalName: cleanText(body.originalName || `SineQ-v${version}-release-signed.apk`, 160),
       sourceFileName: cleanText(body.sourceFileName, 160),
       size: Number(body.size || 0),
       sha256,
@@ -41,7 +41,7 @@ export async function POST(request) {
       securityNote: "Android, Google Play dışından indirilen APK dosyalarında güvenlik uyarısı gösterebilir. Bu uyarı tek başına dosyanın virüslü olduğu anlamına gelmez.",
     };
 
-    const blob = await put("qasimflix/latest.json", JSON.stringify(metadata, null, 2), {
+    const blob = await put("sineq/latest.json", JSON.stringify(metadata, null, 2), {
       access: "public",
       contentType: "application/json",
       addRandomSuffix: false,

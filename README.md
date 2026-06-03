@@ -1,26 +1,26 @@
-# QasimFlix APK Download Site
+# SineQ APK Download Site
 
-QasimFlix APK için resmi indirme sitesi + admin paneli.
+SineQ APK için resmi indirme sitesi + admin paneli.
 
-## Bu güncellemede eklenenler
+## Bu SineQ düzenlemesinde yapılanlar
 
-- Ana sayfaya **APK güven açıklaması** eklendi.
-- Kullanıcının gördüğü “virüslü olabilir / zararlı olabilir” uyarısının neden çıkabileceği açıklandı.
-- Admin panelinde APK seçilince **SHA-256 otomatik hesaplanır**.
-- Ana sayfada dosya adı, sürüm, boyut, yayın tarihi ve SHA-256 gösterilir.
-- Kullanıcı SHA-256 kodunu tek tıkla kopyalayabilir.
-- APK dosya adı daha profesyonel formata çevrildi: `QasimFlix-v1.0.6-release-signed.apk`.
-- Zip içindeki gereksiz nested `.git` ve kopya proje temizlendi.
+- Eski QasimFlix marka adı tüm görünen alanlarda **SineQ** olarak değiştirildi.
+- Netflix kırmızısı yerine koyu lacivert + altın premium tema eklendi.
+- Yeni **SineQ** logo görseli oluşturuldu: `public/sineq.png`.
+- Admin paneli APK dosya adlarını artık `SineQ-v...-release-signed.apk` formatında oluşturur.
+- Vercel Blob yolları `sineq/apk/` ve `sineq/latest.json` olarak düzenlendi.
+- Dil seçimi localStorage anahtarı `sineq_lang` yapıldı.
+- Zip içindeki gereksiz nested `.git` ve kopya proje klasörü temizlendi.
 
 ## Kullanıcıya gösterilecek kısa açıklama
 
 ```text
-Bu APK, QasimFlix'in resmi imzalı Android sürümüdür. Android, Play Store dışından indirilen APK dosyalarında güvenlik uyarısı gösterebilir; bu uyarı tek başına dosyanın virüslü olduğu anlamına gelmez.
+Bu APK, SineQ'nun resmi imzalı Android sürümüdür. Android, Play Store dışından indirilen APK dosyalarında güvenlik uyarısı gösterebilir; bu uyarı tek başına dosyanın virüslü olduğu anlamına gelmez.
 ```
 
 ## Özellikler
 
-- Ana sayfada QasimFlix logosu
+- Ana sayfada SineQ logosu
 - İlk girişte dil seçimi
 - Diller: Türkçe, İngilizce, Arapça, İspanyolca, İtalyanca, Fransızca, Almanca, English UK, Rusça, Çince
 - Admin paneli: `/admin`
@@ -62,3 +62,7 @@ https://siteadresin.vercel.app/admin
 ## Not
 
 Google Drive, Chrome veya Android bazı APK dosyalarında güvenlik uyarısı gösterebilir. Bu site uyarıyı tamamen kaldıramaz; ama kullanıcıya resmi kaynak, sürüm bilgisi ve SHA-256 doğrulama bilgisi vererek yanlış anlaşılmayı azaltır.
+
+## Git kurulumu
+
+Bu zip içinde `.git` klasörü yoktur. GitHub'a göndermek için `GIT_CLONE_KURULUM.md` dosyasındaki adımları kullanın.

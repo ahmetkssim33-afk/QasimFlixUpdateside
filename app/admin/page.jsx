@@ -65,7 +65,7 @@ export default function Admin() {
       setProgress(0);
       setStatus("APK Vercel Blob alanına yükleniyor...");
       const safe = version.replace(/[^a-zA-Z0-9._-]/g, "-") || "release";
-      const pathname = `qasimflix/apk/QasimFlix-v${safe}-release-signed-${Date.now()}.apk`;
+      const pathname = `sineq/apk/SineQ-v${safe}-release-signed-${Date.now()}.apk`;
       const blob = await upload(pathname, file, {
         access: "public",
         handleUploadUrl: "/api/upload",
@@ -84,7 +84,7 @@ export default function Admin() {
           version,
           notes,
           forceUpdate,
-          originalName: `QasimFlix-v${safe}-release-signed.apk`,
+          originalName: `SineQ-v${safe}-release-signed.apk`,
           sourceFileName: file.name,
           size: file.size,
           sha256,
@@ -106,7 +106,7 @@ export default function Admin() {
     <main className="admin-page">
       <section className="admin-card">
         <div className="admin-head">
-          <img src="/qasimflix.png" alt="QasimFlix" />
+          <img src="/sineq.png" alt="SineQ" />
           <div>
             <h1 style={{ margin: 0, fontSize: 34 }}>APK Admin Paneli</h1>
             <p className="desc" style={{ margin: "6px 0 0" }}>Yeni APK dosyasını yükle, sürüm bilgisini yaz ve güven doğrulama kodunu yayınla.</p>

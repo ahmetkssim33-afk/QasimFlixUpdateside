@@ -13,7 +13,7 @@ export async function POST(request) {
         if (!process.env.ADMIN_PASSWORD) throw new Error("ADMIN_PASSWORD env ayarı eksik.");
         if (payload.password !== process.env.ADMIN_PASSWORD) throw new Error("Admin şifresi yanlış.");
         if (!pathname.toLowerCase().endsWith(".apk")) throw new Error("Sadece APK yüklenebilir.");
-        if (!pathname.includes("qasimflix/apk/")) throw new Error("Geçersiz upload yolu.");
+        if (!pathname.includes("sineq/apk/")) throw new Error("Geçersiz upload yolu.");
         return {
           allowedContentTypes: ["application/vnd.android.package-archive", "application/octet-stream"],
           maximumSizeInBytes: 1024 * 1024 * 1024,

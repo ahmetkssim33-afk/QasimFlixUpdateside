@@ -17,9 +17,9 @@ const LANGS = [
 const T = {
   tr: {
     choose: "Dil seç",
-    chooseDesc: "QasimFlix APK indirme sayfasını hangi dilde kullanmak istersin?",
+    chooseDesc: "SineQ APK indirme sayfasını hangi dilde kullanmak istersin?",
     badge: "Android APK",
-    desc: "En güncel QasimFlix Android uygulamasını resmi indirme sayfasından güvenli ve kontrollü şekilde indirebilirsin.",
+    desc: "En güncel SineQ Android uygulamasını resmi indirme sayfasından güvenli ve kontrollü şekilde indirebilirsin.",
     download: "Resmi APK indir",
     noApk: "APK henüz yüklenmedi",
     version: "Sürüm",
@@ -29,7 +29,7 @@ const T = {
     language: "Dil",
     notes: "Güncelleme notları",
     loading: "Yükleniyor...",
-    official: "Resmi QasimFlix APK",
+    official: "Resmi SineQ APK",
     signed: "İmzalı release sürüm",
     warningTitle: "Uyarı neden çıkıyor?",
     warningText: "Android veya tarayıcı, Play Store dışından indirilen APK dosyalarında 'zararlı olabilir' uyarısı gösterebilir. Bu uyarı çoğu zaman APK dosya türü ve bilinmeyen kaynak kurulumu nedeniyle çıkar.",
@@ -41,19 +41,19 @@ const T = {
     notAvailable: "Henüz yok",
     installTitle: "Kurulumdan önce bilgilendirme",
     installSteps: [
-      "APK'yı sadece bu resmi QasimFlix sayfasından indir.",
+      "APK'yı sadece bu resmi SineQ sayfasından indir.",
       "Android uyarı gösterirse dosya türü APK olduğu için normal olabilir; metni dikkatlice oku.",
       "Dosya adı, sürüm ve SHA-256 kodunun bu sayfadaki bilgilerle eşleştiğini kontrol et.",
-      "Kurulumdan sonra uygulama yalnızca QasimFlix sitesini uygulama içinde açar.",
+      "Kurulumdan sonra uygulama yalnızca SineQ sitesini uygulama içinde açar.",
     ],
     userNoteTitle: "Kullanıcıya açıklama",
-    userNote: "Bu APK, QasimFlix'in resmi imzalı Android sürümüdür. Android, Play Store dışından indirilen APK dosyalarında güvenlik uyarısı gösterebilir; bu uyarı tek başına dosyanın virüslü olduğu anlamına gelmez.",
+    userNote: "Bu APK, SineQ'nun resmi imzalı Android sürümüdür. Android, Play Store dışından indirilen APK dosyalarında güvenlik uyarısı gösterebilir; bu uyarı tek başına dosyanın virüslü olduğu anlamına gelmez.",
   },
   en: {
     choose: "Choose language",
-    chooseDesc: "Which language do you want to use on the QasimFlix APK download page?",
+    chooseDesc: "Which language do you want to use on the SineQ APK download page?",
     badge: "Android APK",
-    desc: "Download the latest QasimFlix Android app from the official download page with clear version and file verification details.",
+    desc: "Download the latest SineQ Android app from the official download page with clear version and file verification details.",
     download: "Download official APK",
     noApk: "APK has not been uploaded yet",
     version: "Version",
@@ -63,7 +63,7 @@ const T = {
     language: "Language",
     notes: "Update notes",
     loading: "Loading...",
-    official: "Official QasimFlix APK",
+    official: "Official SineQ APK",
     signed: "Signed release build",
     warningTitle: "Why does a warning appear?",
     warningText: "Android or the browser may warn about APK files installed outside Google Play. This usually happens because the file type is executable and comes from an unknown source.",
@@ -75,19 +75,19 @@ const T = {
     notAvailable: "Not available yet",
     installTitle: "Before installing",
     installSteps: [
-      "Download the APK only from this official QasimFlix page.",
+      "Download the APK only from this official SineQ page.",
       "If Android shows a warning, read it carefully; APK warnings can be normal for sideloaded apps.",
       "Check that filename, version and SHA-256 match the details on this page.",
-      "After installation, the app opens only the QasimFlix website inside the app.",
+      "After installation, the app opens only the SineQ website inside the app.",
     ],
     userNoteTitle: "User explanation",
-    userNote: "This APK is the official signed Android release of QasimFlix. Android may show a security warning for APKs downloaded outside Google Play; the warning alone does not mean the file is infected.",
+    userNote: "This APK is the official signed Android release of SineQ. Android may show a security warning for APKs downloaded outside Google Play; the warning alone does not mean the file is infected.",
   },
   ar: {
     choose: "اختر اللغة",
-    chooseDesc: "ما اللغة التي تريد استخدامها في صفحة تحميل تطبيق QasimFlix؟",
+    chooseDesc: "ما اللغة التي تريد استخدامها في صفحة تحميل تطبيق SineQ؟",
     badge: "تطبيق أندرويد",
-    desc: "حمّل أحدث إصدار من تطبيق QasimFlix للأندرويد من الصفحة الرسمية مع معلومات الإصدار والتحقق.",
+    desc: "حمّل أحدث إصدار من تطبيق SineQ للأندرويد من الصفحة الرسمية مع معلومات الإصدار والتحقق.",
     download: "تحميل APK الرسمي",
     noApk: "لم يتم رفع ملف APK بعد",
     version: "الإصدار",
@@ -97,7 +97,7 @@ const T = {
     language: "اللغة",
     notes: "ملاحظات التحديث",
     loading: "جارٍ التحميل...",
-    official: "APK الرسمي لـ QasimFlix",
+    official: "APK الرسمي لـ SineQ",
     signed: "نسخة موقعة للإصدار",
     warningTitle: "لماذا يظهر التحذير؟",
     warningText: "قد يعرض Android أو المتصفح تحذيرًا عند تحميل ملفات APK من خارج Google Play. غالبًا يظهر ذلك لأن الملف قابل للتثبيت ومن مصدر خارجي.",
@@ -108,15 +108,15 @@ const T = {
     copied: "تم النسخ",
     notAvailable: "غير متوفر بعد",
     installTitle: "قبل التثبيت",
-    installSteps: ["حمّل APK فقط من صفحة QasimFlix الرسمية.", "إذا ظهر تحذير Android فاقرأه جيدًا؛ قد يكون طبيعيًا لتطبيقات APK من خارج المتجر.", "تحقق من اسم الملف والإصدار ورمز SHA-256.", "بعد التثبيت يفتح التطبيق موقع QasimFlix فقط داخل التطبيق."],
+    installSteps: ["حمّل APK فقط من صفحة SineQ الرسمية.", "إذا ظهر تحذير Android فاقرأه جيدًا؛ قد يكون طبيعيًا لتطبيقات APK من خارج المتجر.", "تحقق من اسم الملف والإصدار ورمز SHA-256.", "بعد التثبيت يفتح التطبيق موقع SineQ فقط داخل التطبيق."],
     userNoteTitle: "توضيح للمستخدم",
-    userNote: "هذا هو الإصدار الرسمي الموقّع لتطبيق QasimFlix على Android. قد يظهر Android تحذيرًا لملفات APK من خارج Google Play؛ والتحذير وحده لا يعني أن الملف مصاب.",
+    userNote: "هذا هو الإصدار الرسمي الموقّع لتطبيق SineQ على Android. قد يظهر Android تحذيرًا لملفات APK من خارج Google Play؛ والتحذير وحده لا يعني أن الملف مصاب.",
   },
   es: {
     choose: "Elegir idioma",
-    chooseDesc: "¿En qué idioma quieres usar la página de descarga de QasimFlix APK?",
+    chooseDesc: "¿En qué idioma quieres usar la página de descarga de SineQ APK?",
     badge: "Android APK",
-    desc: "Descarga la app Android oficial de QasimFlix con detalles de versión y verificación del archivo.",
+    desc: "Descarga la app Android oficial de SineQ con detalles de versión y verificación del archivo.",
     download: "Descargar APK oficial",
     noApk: "Aún no se ha subido el APK",
     version: "Versión",
@@ -126,7 +126,7 @@ const T = {
     language: "Idioma",
     notes: "Notas de actualización",
     loading: "Cargando...",
-    official: "APK oficial de QasimFlix",
+    official: "APK oficial de SineQ",
     signed: "Versión release firmada",
     warningTitle: "¿Por qué aparece una advertencia?",
     warningText: "Android o el navegador pueden advertir sobre APK instalados fuera de Google Play. Normalmente ocurre por el tipo de archivo y la instalación desde una fuente externa.",
@@ -137,15 +137,15 @@ const T = {
     copied: "Copiado",
     notAvailable: "Aún no disponible",
     installTitle: "Antes de instalar",
-    installSteps: ["Descarga el APK solo desde esta página oficial.", "Si Android muestra una advertencia, léela con atención; puede ser normal en APK externos.", "Comprueba nombre, versión y SHA-256.", "Tras instalar, la app abre QasimFlix dentro de la aplicación."],
+    installSteps: ["Descarga el APK solo desde esta página oficial.", "Si Android muestra una advertencia, léela con atención; puede ser normal en APK externos.", "Comprueba nombre, versión y SHA-256.", "Tras instalar, la app abre SineQ dentro de la aplicación."],
     userNoteTitle: "Explicación para el usuario",
-    userNote: "Este APK es la versión oficial firmada de QasimFlix para Android. Android puede mostrar advertencias para APK descargados fuera de Google Play; la advertencia por sí sola no significa que el archivo esté infectado.",
+    userNote: "Este APK es la versión oficial firmada de SineQ para Android. Android puede mostrar advertencias para APK descargados fuera de Google Play; la advertencia por sí sola no significa que el archivo esté infectado.",
   },
   it: {
     choose: "Scegli lingua",
-    chooseDesc: "In quale lingua vuoi usare la pagina di download di QasimFlix APK?",
+    chooseDesc: "In quale lingua vuoi usare la pagina di download di SineQ APK?",
     badge: "Android APK",
-    desc: "Scarica l'app Android ufficiale di QasimFlix con dettagli di versione e verifica del file.",
+    desc: "Scarica l'app Android ufficiale di SineQ con dettagli di versione e verifica del file.",
     download: "Scarica APK ufficiale",
     noApk: "APK non ancora caricato",
     version: "Versione",
@@ -155,7 +155,7 @@ const T = {
     language: "Lingua",
     notes: "Note aggiornamento",
     loading: "Caricamento...",
-    official: "APK ufficiale QasimFlix",
+    official: "APK ufficiale SineQ",
     signed: "Build release firmata",
     warningTitle: "Perché appare un avviso?",
     warningText: "Android o il browser possono mostrare avvisi per APK installati fuori da Google Play. Di solito dipende dal tipo di file e dall'origine esterna.",
@@ -166,15 +166,15 @@ const T = {
     copied: "Copiato",
     notAvailable: "Non ancora disponibile",
     installTitle: "Prima dell'installazione",
-    installSteps: ["Scarica l'APK solo da questa pagina ufficiale.", "Se Android mostra un avviso, leggilo con attenzione; può essere normale per APK esterni.", "Controlla nome file, versione e SHA-256.", "Dopo l'installazione, l'app apre QasimFlix dentro l'app."],
+    installSteps: ["Scarica l'APK solo da questa pagina ufficiale.", "Se Android mostra un avviso, leggilo con attenzione; può essere normale per APK esterni.", "Controlla nome file, versione e SHA-256.", "Dopo l'installazione, l'app apre SineQ dentro l'app."],
     userNoteTitle: "Spiegazione per l'utente",
-    userNote: "Questo APK è la versione Android ufficiale e firmata di QasimFlix. Android può mostrare avvisi per APK scaricati fuori da Google Play; l'avviso da solo non significa che il file sia infetto.",
+    userNote: "Questo APK è la versione Android ufficiale e firmata di SineQ. Android può mostrare avvisi per APK scaricati fuori da Google Play; l'avviso da solo non significa che il file sia infetto.",
   },
   fr: {
     choose: "Choisir la langue",
-    chooseDesc: "Dans quelle langue veux-tu utiliser la page de téléchargement QasimFlix APK ?",
+    chooseDesc: "Dans quelle langue veux-tu utiliser la page de téléchargement SineQ APK ?",
     badge: "Android APK",
-    desc: "Télécharge l'application Android officielle QasimFlix avec les détails de version et de vérification.",
+    desc: "Télécharge l'application Android officielle SineQ avec les détails de version et de vérification.",
     download: "Télécharger l'APK officiel",
     noApk: "Aucun APK téléversé",
     version: "Version",
@@ -184,7 +184,7 @@ const T = {
     language: "Langue",
     notes: "Notes de mise à jour",
     loading: "Chargement...",
-    official: "APK officiel QasimFlix",
+    official: "APK officiel SineQ",
     signed: "Version release signée",
     warningTitle: "Pourquoi un avertissement apparaît ?",
     warningText: "Android ou le navigateur peuvent afficher un avertissement pour les APK installés hors Google Play. Cela vient souvent du type de fichier et de la source externe.",
@@ -195,15 +195,15 @@ const T = {
     copied: "Copié",
     notAvailable: "Pas encore disponible",
     installTitle: "Avant l'installation",
-    installSteps: ["Télécharge l'APK uniquement depuis cette page officielle.", "Si Android affiche un avertissement, lis-le attentivement; cela peut être normal pour un APK externe.", "Vérifie le nom, la version et le SHA-256.", "Après installation, l'application ouvre QasimFlix dans l'application."],
+    installSteps: ["Télécharge l'APK uniquement depuis cette page officielle.", "Si Android affiche un avertissement, lis-le attentivement; cela peut être normal pour un APK externe.", "Vérifie le nom, la version et le SHA-256.", "Après installation, l'application ouvre SineQ dans l'application."],
     userNoteTitle: "Explication utilisateur",
-    userNote: "Cet APK est la version Android officielle signée de QasimFlix. Android peut afficher un avertissement pour les APK téléchargés hors Google Play; l'avertissement seul ne signifie pas que le fichier est infecté.",
+    userNote: "Cet APK est la version Android officielle signée de SineQ. Android peut afficher un avertissement pour les APK téléchargés hors Google Play; l'avertissement seul ne signifie pas que le fichier est infecté.",
   },
   de: {
     choose: "Sprache wählen",
-    chooseDesc: "In welcher Sprache möchtest du die QasimFlix APK-Downloadseite verwenden?",
+    chooseDesc: "In welcher Sprache möchtest du die SineQ APK-Downloadseite verwenden?",
     badge: "Android APK",
-    desc: "Lade die offizielle QasimFlix Android-App mit Versions- und Prüfinformationen herunter.",
+    desc: "Lade die offizielle SineQ Android-App mit Versions- und Prüfinformationen herunter.",
     download: "Offizielle APK herunterladen",
     noApk: "APK wurde noch nicht hochgeladen",
     version: "Version",
@@ -213,7 +213,7 @@ const T = {
     language: "Sprache",
     notes: "Update-Hinweise",
     loading: "Wird geladen...",
-    official: "Offizielle QasimFlix APK",
+    official: "Offizielle SineQ APK",
     signed: "Signierter Release-Build",
     warningTitle: "Warum erscheint eine Warnung?",
     warningText: "Android oder der Browser können bei APKs außerhalb von Google Play warnen. Das liegt meist am Dateityp und der externen Quelle.",
@@ -224,15 +224,15 @@ const T = {
     copied: "Kopiert",
     notAvailable: "Noch nicht verfügbar",
     installTitle: "Vor der Installation",
-    installSteps: ["Lade die APK nur von dieser offiziellen Seite herunter.", "Wenn Android eine Warnung zeigt, lies sie sorgfältig; bei externen APKs kann das normal sein.", "Prüfe Dateiname, Version und SHA-256.", "Nach der Installation öffnet die App QasimFlix innerhalb der App."],
+    installSteps: ["Lade die APK nur von dieser offiziellen Seite herunter.", "Wenn Android eine Warnung zeigt, lies sie sorgfältig; bei externen APKs kann das normal sein.", "Prüfe Dateiname, Version und SHA-256.", "Nach der Installation öffnet die App SineQ innerhalb der App."],
     userNoteTitle: "Erklärung für Nutzer",
-    userNote: "Diese APK ist die offizielle signierte Android-Version von QasimFlix. Android kann bei APKs außerhalb von Google Play warnen; die Warnung allein bedeutet nicht, dass die Datei infiziert ist.",
+    userNote: "Diese APK ist die offizielle signierte Android-Version von SineQ. Android kann bei APKs außerhalb von Google Play warnen; die Warnung allein bedeutet nicht, dass die Datei infiziert ist.",
   },
   "en-GB": {
     choose: "Choose language",
-    chooseDesc: "Which language would you like to use for the QasimFlix APK download page?",
+    chooseDesc: "Which language would you like to use for the SineQ APK download page?",
     badge: "Android APK",
-    desc: "Download the official QasimFlix Android app with version and file verification details.",
+    desc: "Download the official SineQ Android app with version and file verification details.",
     download: "Download official APK",
     noApk: "The APK has not been uploaded yet",
     version: "Version",
@@ -242,7 +242,7 @@ const T = {
     language: "Language",
     notes: "Update notes",
     loading: "Loading...",
-    official: "Official QasimFlix APK",
+    official: "Official SineQ APK",
     signed: "Signed release build",
     warningTitle: "Why does a warning appear?",
     warningText: "Android or the browser may warn about APK files installed outside Google Play. This usually happens because the file type is executable and comes from an unknown source.",
@@ -253,15 +253,15 @@ const T = {
     copied: "Copied",
     notAvailable: "Not available yet",
     installTitle: "Before installing",
-    installSteps: ["Download only from this official page.", "Read Android warnings carefully; they can be normal for sideloaded APKs.", "Check filename, version and SHA-256.", "The app opens QasimFlix inside the app."],
+    installSteps: ["Download only from this official page.", "Read Android warnings carefully; they can be normal for sideloaded APKs.", "Check filename, version and SHA-256.", "The app opens SineQ inside the app."],
     userNoteTitle: "User explanation",
-    userNote: "This APK is the official signed Android release of QasimFlix. Android may show a security warning for APKs downloaded outside Google Play; the warning alone does not mean the file is infected.",
+    userNote: "This APK is the official signed Android release of SineQ. Android may show a security warning for APKs downloaded outside Google Play; the warning alone does not mean the file is infected.",
   },
   ru: {
     choose: "Выберите язык",
-    chooseDesc: "На каком языке использовать страницу загрузки QasimFlix APK?",
+    chooseDesc: "На каком языке использовать страницу загрузки SineQ APK?",
     badge: "Android APK",
-    desc: "Скачайте официальное Android-приложение QasimFlix с данными версии и проверки файла.",
+    desc: "Скачайте официальное Android-приложение SineQ с данными версии и проверки файла.",
     download: "Скачать официальный APK",
     noApk: "APK ещё не загружен",
     version: "Версия",
@@ -271,7 +271,7 @@ const T = {
     language: "Язык",
     notes: "Примечания к обновлению",
     loading: "Загрузка...",
-    official: "Официальный APK QasimFlix",
+    official: "Официальный APK SineQ",
     signed: "Подписанная release-сборка",
     warningTitle: "Почему появляется предупреждение?",
     warningText: "Android или браузер могут предупреждать об APK вне Google Play. Обычно это связано с типом файла и внешним источником.",
@@ -282,15 +282,15 @@ const T = {
     copied: "Скопировано",
     notAvailable: "Пока недоступно",
     installTitle: "Перед установкой",
-    installSteps: ["Скачивайте APK только с этой официальной страницы.", "Если Android показывает предупреждение, внимательно прочитайте его; для внешних APK это может быть нормально.", "Проверьте имя файла, версию и SHA-256.", "После установки приложение открывает QasimFlix внутри приложения."],
+    installSteps: ["Скачивайте APK только с этой официальной страницы.", "Если Android показывает предупреждение, внимательно прочитайте его; для внешних APK это может быть нормально.", "Проверьте имя файла, версию и SHA-256.", "После установки приложение открывает SineQ внутри приложения."],
     userNoteTitle: "Пояснение для пользователя",
-    userNote: "Этот APK — официальная подписанная Android-версия QasimFlix. Android может показывать предупреждение для APK вне Google Play; само предупреждение не означает, что файл заражён.",
+    userNote: "Этот APK — официальная подписанная Android-версия SineQ. Android может показывать предупреждение для APK вне Google Play; само предупреждение не означает, что файл заражён.",
   },
   zh: {
     choose: "选择语言",
-    chooseDesc: "你想用哪种语言使用 QasimFlix APK 下载页面？",
+    chooseDesc: "你想用哪种语言使用 SineQ APK 下载页面？",
     badge: "Android APK",
-    desc: "下载 QasimFlix 官方 Android 应用，并查看版本与文件校验信息。",
+    desc: "下载 SineQ 官方 Android 应用，并查看版本与文件校验信息。",
     download: "下载官方 APK",
     noApk: "尚未上传 APK",
     version: "版本",
@@ -300,7 +300,7 @@ const T = {
     language: "语言",
     notes: "更新说明",
     loading: "加载中...",
-    official: "QasimFlix 官方 APK",
+    official: "SineQ 官方 APK",
     signed: "已签名发布版本",
     warningTitle: "为什么会出现警告？",
     warningText: "Android 或浏览器可能会对 Google Play 以外安装的 APK 显示警告。这通常与文件类型和外部来源有关。",
@@ -311,17 +311,17 @@ const T = {
     copied: "已复制",
     notAvailable: "尚不可用",
     installTitle: "安装前说明",
-    installSteps: ["只从此官方页面下载 APK。", "如果 Android 显示警告，请仔细阅读；外部 APK 可能会出现此类提示。", "检查文件名、版本和 SHA-256。", "安装后，应用只会在应用内打开 QasimFlix。"],
+    installSteps: ["只从此官方页面下载 APK。", "如果 Android 显示警告，请仔细阅读；外部 APK 可能会出现此类提示。", "检查文件名、版本和 SHA-256。", "安装后，应用只会在应用内打开 SineQ。"],
     userNoteTitle: "用户说明",
-    userNote: "此 APK 是 QasimFlix 官方签名的 Android 发布版本。Android 可能会对 Google Play 以外下载的 APK 显示安全警告；警告本身并不代表文件感染病毒。",
+    userNote: "此 APK 是 SineQ 官方签名的 Android 发布版本。Android 可能会对 Google Play 以外下载的 APK 显示安全警告；警告本身并不代表文件感染病毒。",
   }
 };
 
 const FALLBACK_TEXT = {
   choose: "Choose language",
-  chooseDesc: "Which language do you want to use on the QasimFlix APK download page?",
+  chooseDesc: "Which language do you want to use on the SineQ APK download page?",
   badge: "Android APK",
-  desc: "Download the official QasimFlix Android APK with version and verification details.",
+  desc: "Download the official SineQ Android APK with version and verification details.",
   download: "Download official APK",
   noApk: "APK has not been uploaded yet",
   version: "Version",
@@ -331,7 +331,7 @@ const FALLBACK_TEXT = {
   language: "Language",
   notes: "Update notes",
   loading: "Loading...",
-  official: "Official QasimFlix APK",
+  official: "Official SineQ APK",
   signed: "Signed release build",
   warningTitle: "Why does a warning appear?",
   warningText: "Android or the browser may warn about APK files installed outside Google Play. This does not automatically mean the file is infected.",
@@ -342,9 +342,9 @@ const FALLBACK_TEXT = {
   copied: "Copied",
   notAvailable: "Not available yet",
   installTitle: "Before installing",
-  installSteps: ["Download only from this official page.", "Read Android warnings carefully.", "Check version and SHA-256.", "The app opens QasimFlix inside the app."],
+  installSteps: ["Download only from this official page.", "Read Android warnings carefully.", "Check version and SHA-256.", "The app opens SineQ inside the app."],
   userNoteTitle: "User explanation",
-  userNote: "This APK is the official signed Android release of QasimFlix. Android may show a security warning for APK files downloaded outside Google Play; the warning alone does not mean the file is infected.",
+  userNote: "This APK is the official signed Android release of SineQ. Android may show a security warning for APK files downloaded outside Google Play; the warning alone does not mean the file is infected.",
 };
 
 const REGIONAL_FALLBACK = {};
@@ -390,7 +390,7 @@ export default function Home() {
   const hasApk = Boolean(downloadHref);
 
   useEffect(() => {
-    const saved = localStorage.getItem("qasim_lang");
+    const saved = localStorage.getItem("sineq_lang");
     if (saved && LANGS.some(([code]) => code === saved)) setLang(saved);
     else setAsk(true);
 
@@ -403,7 +403,7 @@ export default function Home() {
 
   function choose(code) {
     setLang(code);
-    localStorage.setItem("qasim_lang", code);
+    localStorage.setItem("sineq_lang", code);
     setAsk(false);
   }
 
@@ -428,12 +428,12 @@ export default function Home() {
       <section className="card">
         <div className="hero">
           <div className="logo-wrap">
-            <img className="logo" src="/qasimflix.png" alt="QasimFlix" />
+            <img className="logo" src="/sineq.png" alt="SineQ" />
           </div>
 
           <div>
             <div className="kicker">⬇️ {t.badge}</div>
-            <h1>Qasim<span>Flix APK</span></h1>
+            <h1>Sine<span>Q</span><small> APK</small></h1>
             <p className="desc">{t.desc}</p>
 
             <div className="safety-banner">

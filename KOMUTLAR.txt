@@ -1,0 +1,5 @@
+cd C:\Users\termu\Desktop\SineQDownload
+git status
+git add .
+git commit -m "SineQ APK indirme sitesini guncelle"
+git push
